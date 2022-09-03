@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>My Calculator</h1>
+    
+    <div class="outer">
+        <form action="">
+            <input class="input" id="area" type="text">
+        </form>
+        <div class="rows">
+            <button class="btn" onclick="Clear()">C</button>
+            <button class="btn" onclick="Clear_one()"><=</button>
+            <button class="btn" onclick="clicked('%')">%</button>
+            <button class="btn" onclick="clicked('/')">/</button>
+            <button class="btn" onclick="clicked('7')">7</button>
+            <button class="btn" onclick="clicked('8')">8</button>
+            <button class="btn" onclick="clicked('9')">9</button>
+            <button class="btn" onclick="clicked('*')">*</button>
+            <button class="btn" onclick="clicked('4')">4</button>
+            <button class="btn" onclick="clicked('5')">5</button>
+            <button class="btn" onclick="clicked('6')">6</button>
+            <button class="btn" onclick="clicked('-')">-</button>
+            <button class="btn" onclick="clicked('1')">1</button>
+            <button class="btn" onclick="clicked('2')">2</button>
+            <button class="btn" onclick="clicked('3')">3</button>
+            <button class="btn" onclick="clicked('+')">+</button>
+            <button class="btn" onclick="clicked('00')">00</button>
+            <button class="btn" onclick="clicked('0')">0</button>
+            <button class="btn" onclick="clicked('.')">.</button>
+            <button class="btn" onclick="Solve()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
